@@ -841,7 +841,7 @@ elif page == "ℹ️  Tentang":
 
     st.markdown("""
     <div class="top-header">
-        <h1>ℹ️ Tentang ShopPredict AI</h1>
+        <h1>ℹ️ Tentang Shop Predict</h1>
         <p>Dokumentasi lengkap proyek Machine Learning untuk prediksi pembelian e-commerce.</p>
     </div>
     """, unsafe_allow_html=True)
