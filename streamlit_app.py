@@ -870,6 +870,7 @@ elif page == "ℹ️  Tentang":
         | `checkout_intent` | saw_checkout + minibasket_click |
         | `product_info_check` | delivery + returns + sizechart |
         | `engagement_score` | promo + image_picker + wishlist |
+        """)
 
     with col_b:
         st.markdown("""
