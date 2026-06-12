@@ -14,7 +14,7 @@ from plotly.subplots import make_subplots
 
 # ─── Page Config ─────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="ShopPredict AI",
+    page_title="Shop Predict",
     page_icon="🛍️",
     layout="wide",
     initial_sidebar_state="expanded",
