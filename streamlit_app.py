@@ -691,9 +691,9 @@ elif page == "📊  Batch Prediksi CSV":
                     display_cols = ['UserID'] + display_cols
                 st.dataframe(
                     result_df[display_cols].head(100).style
-                    .applymap(lambda v: 'color: #065f46; font-weight: 600' if v == 'BELI'
-                              else ('color: #9f1239; font-weight: 600' if v == 'TIDAK BELI' else ''),
-                              subset=['Prediksi'])
+                    .map(lambda v: 'color: #065f46; font-weight: 600' if v == 'BELI'
+                        else ('color: #9f1239; font-weight: 600' if v == 'TIDAK BELI' else ''),
+                        subset=['Prediksi'])
                     .format({'Probabilitas (%)': '{:.2f}'}),
                     use_container_width=True, height=320
                 )
