@@ -263,6 +263,7 @@ with st.sidebar:
     <div style="padding: 1.5rem 0 1rem; text-align: center;">
         <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🛍️</div>
         <div style="font-size: 1.1rem; font-weight: 700; color: #f1f5f9;">Shop Predict</div>
+        <div style="font-size: 1.1rem; font-weight: 700; color: #f1f5f9;">KELOMPOK 5 (XK)</div>
         <div style="font-size: 0.78rem; color: #94a3b8; margin-top: 0.2rem;">E-Commerce ML Predictor</div>
     </div>
     <hr style="border-color:#334155; margin: 0 0 1rem;">
