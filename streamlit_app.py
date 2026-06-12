@@ -322,8 +322,8 @@ with st.sidebar:
 
     st.markdown("""
     <div style="position: absolute; bottom: 1.5rem; left: 0; right: 0;
-         text-align: center; font-size: 0.7rem; color: #475569;">
-        ShopPredict AI v1.0 · Powered by ML
+         text-align: center; font-size: 0.7rem; color: #475569; margin-top: 100px;">
+        Shop Predict AI v1.0 · Powered by ML
     </div>
     """, unsafe_allow_html=True)
 
