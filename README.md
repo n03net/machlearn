@@ -1,4 +1,5 @@
 # 🛍️ E-Commerce Purchase Prediction
+# KELOMPOK 5 (XK)
 
 Machine Learning untuk memprediksi apakah seorang user akan melakukan pembelian pada platform e-commerce berdasarkan perilaku browsing mereka.
 
