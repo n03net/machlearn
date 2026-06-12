@@ -320,16 +320,6 @@ with st.sidebar:
         </div>
         """, unsafe_allow_html=True)
 
-    st.markdown("""
-    <div style="position: fixed; bottom: 1rem; left: 1rem; right: 1rem;
-         text-align: center; font-size: 0.7rem; color: #475569;
-         background: #0f172a; padding: 0.5rem; border-radius: 8px;
-         z-index: 999;">
-        ShopPredict AI v1.0 · Powered by ML
-    </div>
-    """, unsafe_allow_html=True)
-
-
 # ─── Helper: gauge ────────────────────────────────────────────────────────────
 def make_gauge(prob: float, threshold: float) -> go.Figure:
     pct   = prob * 100
