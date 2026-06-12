@@ -871,22 +871,6 @@ elif page == "ℹ️  Tentang":
         | `product_info_check` | delivery + returns + sizechart |
         | `engagement_score` | promo + image_picker + wishlist |
 
-        ### 🚀 Cara Deploy ke Streamlit Cloud
-        ```bash
-        # 1. Pastikan struktur folder:
-        ├── streamlit_app.py
-        ├── requirements.txt
-        └── model_artifacts/
-            ├── best_model.pkl
-            └── model_metadata.json
-
-        # 2. Push ke GitHub
-
-        # 3. Buka share.streamlit.io
-        #    → Connect GitHub → Deploy
-        ```
-        """)
-
     with col_b:
         st.markdown("""
         ### 📦 Tech Stack
